@@ -412,6 +412,12 @@ public abstract class AbstractChat extends BaseEntity {
 			if (!ChatManager.getInstance().isNotifyVisible(account, user))
 				showTicker = false;
 		}
+		
+		if (user.contains("gmail.com") || user.contains("googlemail.com")) {
+			notify = false;
+			showTicker = false;
+		}
+		
 		MessageItem messageItem = new MessageItem(this, record ? null
 				: NO_RECORD_TAG, resource, text, action, timestamp,
 				delayTimestamp, incoming, read, send, false, incoming,

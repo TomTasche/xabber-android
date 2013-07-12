@@ -265,6 +265,7 @@ public class NotificationManager implements OnInitializedListener,
 			notification.defaults |= Notification.DEFAULT_LIGHTS;
 			notification.flags |= Notification.FLAG_SHOW_LIGHTS;
 		}
+		notification.icon = R.drawable.ic_stat_ic_launcher;
 	}
 
 	/**
