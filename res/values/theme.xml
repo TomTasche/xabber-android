@@ -14,7 +14,7 @@
 -->
 <resources>
 
-    <style name="Theme" parent="@android:style/Theme">
+    <style name="Theme" parent="@android:style/Theme.Holo.Light">
         <item name="expanderBackground">@drawable/expander_background_dark</item>
         <item name="expanderGroupColor">?android:attr/textColorPrimary</item>
         <item name="expanderAccountColor">?android:attr/textColorPrimaryInverse</item>
@@ -25,7 +25,7 @@
         <item name="textColorPrimaryNoSelected">@color/bright_foreground_dark</item>
     </style>
 
-    <style name="Theme.NoTitleBar" parent="@android:style/Theme.NoTitleBar">
+    <style name="Theme.NoTitleBar" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
         <item name="expanderBackground">@drawable/expander_background_dark</item>
         <item name="expanderGroupColor">?android:attr/textColorPrimary</item>
         <item name="expanderAccountColor">?android:attr/textColorPrimaryInverse</item>
@@ -36,7 +36,7 @@
         <item name="textColorPrimaryNoSelected">@color/bright_foreground_dark</item>
     </style>
 
-    <style name="Theme.Dark" parent="@android:style/Theme.Black">
+    <style name="Theme.Dark" parent="@android:style/Theme.Holo">
         <item name="expanderBackground">@drawable/expander_background_dark</item>
         <item name="expanderGroupColor">?android:attr/textColorPrimary</item>
         <item name="expanderAccountColor">?android:attr/textColorPrimaryInverse</item>
@@ -47,7 +47,7 @@
         <item name="textColorPrimaryNoSelected">@color/bright_foreground_dark</item>
     </style>
 
-    <style name="Theme.Dark.NoTitleBar" parent="@android:style/Theme.Black.NoTitleBar">
+    <style name="Theme.Dark.NoTitleBar" parent="@android:style/Theme.Holo.NoActionBar.Fullscreen">
         <item name="expanderBackground">@drawable/expander_background_dark</item>
         <item name="expanderGroupColor">?android:attr/textColorPrimary</item>
         <item name="expanderAccountColor">?android:attr/textColorPrimaryInverse</item>
@@ -58,7 +58,7 @@
         <item name="textColorPrimaryNoSelected">@color/bright_foreground_dark</item>
     </style>
 
-    <style name="Theme.Light" parent="@android:style/Theme.Light">
+    <style name="Theme.Light" parent="@android:style/Theme.Holo.Light">
         <item name="expanderBackground">@drawable/expander_background_light</item>
         <item name="expanderGroupColor">?android:attr/textColorPrimary</item>
         <item name="expanderAccountColor">?android:attr/textColorPrimary</item>
@@ -69,7 +69,7 @@
         <item name="textColorPrimaryNoSelected">@color/bright_foreground_light</item>
     </style>
 
-    <style name="Theme.Light.NoTitleBar" parent="@android:style/Theme.Light.NoTitleBar">
+    <style name="Theme.Light.NoTitleBar" parent="@android:style/Theme.Holo.Light.NoActionBar.Fullscreen">
         <item name="expanderBackground">@drawable/expander_background_light</item>
         <item name="expanderGroupColor">?android:attr/textColorPrimary</item>
         <item name="expanderAccountColor">?android:attr/textColorPrimary</item>
